@@ -1,2 +1,2 @@
-# http://stanislav121.github.io/
+# http://stasnislav121.github.io/
 Мой первый хостинг
