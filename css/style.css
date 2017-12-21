@@ -18,10 +18,16 @@ html, body {
   margin: 0 auto;
   padding: 0 10px;
 }
-.main-navigator{
+.main-navigation{
   width: 780px;
   float: left;
   min-height: 70px;
+}
+.main-navigation .logo-inner{
+  display: float;
+  wdith: 111px;
+  height: 20px;
+  padding-top: 22px;
 }
 .user-block{
   width: 80px;
