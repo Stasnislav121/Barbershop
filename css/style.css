@@ -1,11 +1,18 @@
-html, body {
-  min-width: 1122px;
-  min-height: 1750px;
-  margin: 0px;
-  padding: 0px;
+body {
+width: 1122px;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+font-family: "PT Sans Narrow","Arial", sans-serif;
+color: #ffffff;
+text-transform: uppercase;
+background-image: url("img/body-bg.jpg") no-repeat center top;
+background-color: #000000;
 }
 .main-header {
   margin-bottom: 60px;
+  color: #ffffff;
+  background-color: #000000;
 }
 .clearfix::after{
   content: "";
@@ -23,24 +30,71 @@ html, body {
   float: left;
   min-height: 70px;
 }
+.main-navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+.main-navigation li{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-navigation a{
+  display: block;
+  padding: 25px 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.main-navigation a:hover{
+  background-color: #242424;
+}
 .main-navigation .logo-inner{
   display: float;
-  wdith: 111px;
+  width: 111px;
   height: 20px;
   padding-top: 22px;
 }
 .user-block{
-  width: 80px;
   float: right;
-  min-height: 70px;
+  max-width: 140px;
+  }
+.login {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.login:hover{
+  background-color: #242424;
+}
+.login::before{
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 28px;
+  width: 18px;
+  height: 18px;
+  background: transparent url("img/sprite.png") no-repeat;
+  background-position: -1px -15px;
 }
 .index-logo{
+  width: 368px;
+  min-height: 204px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 25px;
 }
 .features{
   margin-bottom: 80px;
+  display: float;
 }
 .features-item{
   float: left;
