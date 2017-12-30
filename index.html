@@ -68,7 +68,7 @@
         <a class="btn" href="#">Все новости</a>
       </div>
       <div class="index-content-right">
-        <h2 class="index-content-title">Галерея</h2>
+        <h2 class="index-content-title">Фотогалерея</h2>
         <div class="gallery">
           <figure class="gallery-content">
             <img src="img/photo-1.jpg" width="286" height="164" alt="">
@@ -81,7 +81,7 @@
     <div class="index-content clearfix">
       <div class="index-content-left">
         <h2 class="index-content-title">Контактная информация</h2>
-        <p>
+        <p class="index-about">
           Барбершоп "Бородинский"<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           Телефон: +7 (812) 666-02-66
@@ -91,8 +91,8 @@
           пн - пт: с 10:00 до 22:00<br>
           сб - вс: с 10:00 до 19:00
         </p>
-        <a class="btn" href="#">Как проехать</a>
-        <a class="btn" href="#">Обратная связь</a>
+        <a class="btn index-btn" href="#">Как проехать</a>
+        <a class="btn index-btn" href="#">Обратная связь</a>
       </div>
       <div class="index-content-right">
         <h2 class="index-content-title">Записаться</h2>
@@ -127,5 +127,21 @@
     </section>
   </div>
 </footer>
+<div class="modal-content">
+  <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+  <h2 class="model-content-title">Личный кабинет</h2>
+  <p>Введите свой логин и пароль</p>
+  <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+    <input class="icon-user" type="text" name="login" placeholder="Логин">
+    <input class="icon-password" type="password" name="password" placeholder="Пароль">
+    <label class="login-checkbox">
+      <input type="checkbox" name="remember">
+      <span class="chekbox-indicator"></span>
+      Запомните меня
+    </label>
+    <a class="restore" href="#">Я забыл паролЬ!</a>
+    <button class="btn" type="submit">Войти</button>
+  </form>
+</div>
 </body>
 </html>
