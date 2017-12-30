@@ -417,7 +417,6 @@ text-align: center;
 }
 .inner-column-left, .inner-column-right{
   width: 460px;
-  outline: 3px solid red;
 }
 .inner-column-left{
   float: left;
@@ -509,6 +508,7 @@ text-align: center;
   color: #000000;
   background-color: #ffffff;
 }
+/*
 .modal-content{
   position: absolute;
   top: 120px;
