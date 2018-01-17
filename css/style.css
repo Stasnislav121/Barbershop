@@ -432,6 +432,24 @@ text-align: center;
 .inner-column-right *:last-child{
   margin-bottom: 0px;
 }
+.form-fields{
+  float:left;
+}
+.items{
+  float: right;
+}
+.item{
+  width: 220px;
+  height: 286px;
+  background-color: #ffffff;
+  color: #000000;
+
+}
+.item-buy{
+  width: 187px;
+  height: 43px;
+  background-color: #e5e5e5;
+}
 .main-footer{
   margin-top: 65px;
   padding-top: 60px;

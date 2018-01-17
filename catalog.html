@@ -3,18 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп "Бородинский"</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link  rel="stylesheet" href="css/normalize.css">
+    <link  rel="stylesheet" href="css/style.css">
 </head>
-  <body>
+  <body class="inner-page">
     <!-- header -->
-    <header class="price-header">
-      <div>
-        <nav class="price-header">
-          <a href="index.html"><img src="#" alt="barbershop" width="40" height="30"></a>
+    <header class="main-header">
+      <div class="container clearfix">
+        <nav class="main-navigation">
+          <a class="logo-inner" href="index.html">
+            <img src="img/logo-inner.png" alt="Барбершоп "Бородинский"" width="111" height="24">
+          </a>
           <ul>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="price.html">Прайс-лист</a></li>
-            <li><a>Магазин</a></li>
+            <li class="active"><a>Магазин</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
         </nav>
@@ -24,8 +29,8 @@
       </div>
     </header>
 <!-- Main -->
-    <main class="container">
-      <div class="title">
+    <main class="container clearfix">
+      <div class="inner-page-title">
         <h1>Средства для ухода</h1>
         <ul class="breadcrumbs">
           <li>
@@ -37,7 +42,7 @@
           <li class="current">Средства для ухода</li>
         </ul>
       </div>
-      <form action="#" method="get">
+      <form action="#" method="get" class="form-fields">
         <fieldset>
           <legend>Производители:</legend>
             <ul>
@@ -148,7 +153,7 @@
     </main>
 <!-- footer -->
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп "Бородинский"<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -162,6 +167,7 @@
           <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
         </section>
         <section class="footer-copyright">
+          <p>Разработано:</p>
           <a class="btn" href="htmlacademy.ru">HTML Academy</a>
         </section>
       </div>
