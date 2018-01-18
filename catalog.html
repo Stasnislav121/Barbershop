@@ -42,7 +42,7 @@
           <li class="current">Средства для ухода</li>
         </ul>
       </div>
-      <form action="#" method="get" class="inner-column-left form-fields">
+      <form action="#" method="get" class="form-fields">
         <fieldset>
           <legend>Производители:</legend>
             <ul class="manufacturer">
@@ -58,13 +58,13 @@
           <legend>Группы товаров:</legend>
             <ul class="group">
               <li><input type="radio" id="razer" name="group" value="razer"><label for="razer">Бритвенные принадлежности</label></li>
-              <li><input type="radio" id="care" name="group" value="care"><label for="care">Средства для ухода</label></li>
+              <li><input type="radio" id="care" name="group" value="care" checked><label for="care">Средства для ухода</label></li>
               <li><input type="radio" id="acces" name="group" value="accessories"><label for="acces">Аксессуары</label></li>
             </ul>
         </fieldset>
         <button class="btn" type="submit">Показать</button>
       </form>
-      <div class="inner-column-right items">
+      <div class="items">
         <div class="item">
           <a href="item.html"><img src="img/baxer_travel.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»"></a>
           <h2 class="item-title">
@@ -74,7 +74,7 @@
             </a>
           </h2>
           <div class="item-buy">
-            <span class="item-price">2900 руб.</span>
+            <span class="item-price">2 900 руб.</span>
             <a href="#" class="btn">Купить</a>
           </div>
       </div>
@@ -139,9 +139,15 @@
             </a>
           </h2>
           <div class="item-buy">
-            <span class="item-price">3900 руб.</span>
+            <span class="item-price">3 900 руб.</span>
             <a href="#" class="btn">Купить</a>
           </div>
+        </div>
+        <div class="pagination">
+            <a class="btn btn-page" href="#">1</a>
+            <a class="btn btn-page page-active">2</a>
+            <a class="btn btn-page" href="#">3</a>
+            <a class="btn btn-page" href="#">4</a>
         </div>
       </div>
     </main>
