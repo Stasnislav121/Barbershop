@@ -441,12 +441,38 @@ text-align: center;
   padding: 0px;
   margin-bottom: 50px;
 }
+fieldset legend{
+  font-size: 24px;
+  line-height: 30px;
+}
 fieldset ul{
   margin: 0px;
   padding: 0px;
 }
 fieldset ul li{
   list-style: none;
+}
+.manufacturer input[type="checkbox"],
+.group input[type="radio"]{
+  display: none;
+}
+.manufacturer label{
+  position: relative;
+  margin-left: 43px;
+  cursor: pointer;
+}
+input[type="checkbox"] + label::before{
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  border: 2px solid black;
+  cursor: pointer;
+  left: -43px;
+  background: url("../img/sprite.png") left no-repeat;
+}
+input[type="checkbox"]:checked + label::before{
+  background-position: -12px -150px;
 }
 .items{
   width: 700px;
