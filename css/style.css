@@ -442,6 +442,9 @@ text-align: center;
   padding: 0px;
   margin-bottom: 50px;
 }
+.form-fields li:hover{
+  color: #663d15;
+}
 fieldset legend{
   font-size: 24px;
   line-height: 30px;
@@ -454,7 +457,7 @@ fieldset ul{
 fieldset ul li{
   list-style: none;
 }
-.manufacturer li:not(:last-child),
+.manufacturer l i:not(:last-child),
 .group li:not(:last-child){
   margin-bottom:14px;
 }
@@ -554,6 +557,7 @@ form .btn,
 .items .btn{
   font-size: 14px;
   line-height: 18px;
+  margin-right: 7px;
 }
 .pagination{
   margin-top: 32px;
