@@ -19,7 +19,7 @@ background-color: #000000;
   background-color: #000000;
 }
 .inner-page .main-header{
-  margin-bottom: 55px;
+  margin-bottom: 48px;
 }
 .clearfix::after{
   content: "";
@@ -78,7 +78,7 @@ background-color: #000000;
   float: left;
   width: 111px;
   height: 20px;
-  padding-top: 22px;
+  padding-top: 25px;
 }
 .main-navigation .logo-inner img{
   width: 111px;
@@ -293,11 +293,11 @@ text-align: center;
 }
 /*Стили price*/
 .inner-page-title{
-  margin-bottom: 55px;
+  margin-bottom: 45px;
 }
 .inner-page-title h1{
   margin: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   font-size: 30px;
   padding: 0px;
   line-height: 42px;
@@ -448,7 +448,7 @@ text-align: center;
 fieldset legend{
   font-size: 24px;
   line-height: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 29px;
 }
 fieldset ul{
   margin: 0px;
@@ -457,9 +457,9 @@ fieldset ul{
 fieldset ul li{
   list-style: none;
 }
-.manufacturer l i:not(:last-child),
+.manufacturer li:not(:last-child),
 .group li:not(:last-child){
-  margin-bottom:14px;
+  margin-bottom: 19px;
 }
 .manufacturer input[type="checkbox"],
 .group input[type="radio"]{
@@ -467,23 +467,24 @@ fieldset ul li{
 }
 .manufacturer label, .group label{
   position: relative;
-  margin-left: 43px;
+  padding-left: 43px;
   cursor: pointer;
   display: block;
+  line-height: 18px;
   width: 125px;
 }
 input[type="checkbox"] + label::before{
   content: "";
   position: absolute;
-  height: 18px;
-  width: 18px;
+  height: 16px;
+  width: 16px;
+  margin-top: -1px;
   border: 2px solid #000000;
-  cursor: pointer;
-  left: -43px;
+  left: -1px;
   background: url("../img/sprite.png") left no-repeat;
 }
 input[type="checkbox"]:checked + label::before{
-  background-position: -12px -150px;
+  background-position: -13px -151px;
 }
 input[type="radio"] + label::before{
   content: "";
@@ -494,15 +495,19 @@ input[type="radio"] + label::before{
   border-radius: 50%;
   cursor: pointer;
   padding: 4px;
-  left: -43px;
+  left: -1px;
 }
 input[type="radio"]:checked + label::before{
   background-color: #000000;
   background-clip: content-box;
 }
+.btn-submit{
+  padding: 13px 29px;
+}
 .items{
   float: right;
   width: 700px;
+  margin-top: 6px;
   font-size: 0;
 }
 .item{
@@ -513,8 +518,8 @@ input[type="radio"]:checked + label::before{
   background-color: #ffffff;
   color: #000000;
   margin-right: 20px;
-  margin-bottom: 17px;
-  padding-bottom: 12px;
+  margin-bottom: 21px;
+  box-shadow: 0 0 20px rgba(0,0,0,.2);
 }
 .item:nth-child(3n){
   margin-right: 0px;
@@ -524,7 +529,7 @@ input[type="radio"]:checked + label::before{
   line-height: 18px;
   margin-left: 16px;
   margin-right: 18px;
-  padding-bottom: 5px;
+  margin-top: 0px;
 }
 .item-title a{
   text-decoration: none;
@@ -546,23 +551,26 @@ input[type="radio"]:checked + label::before{
   display: inline-block;
   font-size: 14px;
   line-height: 18px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
-.item-buy .btn{
+.btn-buy{
   float: right;
   margin-right: 0px;
+  padding: 13px 18px;
 }
 form .btn,
-.items .btn{
+.btn-buy{
   font-size: 14px;
   line-height: 18px;
 }
 .pagination{
-  margin-top: 32px;
+  margin-top: 24px;
+  margin-bottom: 10px;
 }
 .pagination .btn-page{
   padding: 10px 18px;
+  margin-right: 7px;
 }
 .pagination .page-active{
   color: #000000;
