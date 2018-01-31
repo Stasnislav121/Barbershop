@@ -628,6 +628,7 @@ form .btn,
   padding: 10px 0px;
 }
 .description .btn{
+  float: right;
   font-size: 14px;
   line-height: 24px;
   padding: 10px 16px;
