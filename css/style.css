@@ -632,6 +632,7 @@ form .btn,
   font-size: 14px;
   line-height: 24px;
   padding: 10px 16px;
+  margin-right: 0px;
 }
 .item-composition{
   float: left;
