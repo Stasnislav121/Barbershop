@@ -586,6 +586,9 @@ form .btn,
   margin-right: 90px;
   font-size: 0px;
 }
+.image img{
+  box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
 .image-big{
   padding: 0px;
   margin: 0px;
