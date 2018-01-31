@@ -3,18 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп "Бородинский"</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link  rel="stylesheet" href="css/normalize.css">
+    <link  rel="stylesheet" href="css/style.css">
 </head>
-  <body>
+  <body class="inner-page">
     <!-- header -->
-    <header class="price-header">
-      <div>
-        <nav class="price-header">
-          <a href="index.html"><img src="#" alt="barbershop" width="40" height="30"></a>
+    <header class="main-header">
+      <div class="container clearfix">
+        <nav class="main-navigation">
+          <a class="logo-inner" href="index.html">
+            <img src="img/logo-inner.png" alt="Барбершоп "Бородинский"" width="111" height="24">
+          </a>
           <ul>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="price.html">Прайс-лист</a></li>
-            <li><a href="catalog.html">Магазин</a></li>
+            <li class="active"><a href="catalog.html">Магазин</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
         </nav>
@@ -24,8 +29,8 @@
       </div>
     </header>
     <!-- Main -->
-    <main class="container">
-      <div class="title">
+    <main class="container clearfix">
+      <div class="inner-page-title">
         <h1>Набор для путешествий «Baxter of California»</h1>
         <ul class="breadcrumbs">
           <li>
@@ -42,16 +47,16 @@
       </div>
       <section class="image">
         <div class="image-big">
-          <a href="#"><img src="#" width="400" height="409" alt="Набор для путешествий «Baxter of California»"></a>
+          <a href="#"><img src="img/baxter-title.jpg" width="460" height="498" alt="Набор для путешествий «Baxter of California»"></a>
         </div>
         <div class="image-small">
-          <img src="#" width="140" height="149" alt="Набор для путешествий «Baxter of California»">
-          <img src="#" width="140" height="149" alt="Набор для путешествий «Baxter of California»">
-          <img src="#" width="140" height="149" alt="Набор для путешествий «Baxter of California»">
+          <img src="img/baxter-1.jpg" width="140" height="149" alt="Набор для путешествий «Baxter of California»">
+          <img src="img/baxter-2.jpg" width="140" height="149" alt="Набор для путешествий «Baxter of California»">
+          <img src="img/baxter-3.jpg" width="140" height="149" alt="Набор для путешествий «Baxter of California»">
         </div>
       </section>
-      <section class="desription">
-        <div class="desription-header">
+      <section class="description">
+        <div class="description-header">
           <span>Есть в наличии</span>
           <span class="part-number">Артикул: dexter-ae</span>
         </div>
@@ -63,7 +68,7 @@
       </section>
       <section class="item-composition">
 			<h2>В набор входят:</h2>
-			<ul>
+			<ul class="item-composition-list">
 				<li>Средство для умывания (50 мл)</li>
 				<li>Увлажняющий крем (50 мл)</li>
 				<li>Крем для бритья (50 мл)</li>
@@ -74,7 +79,7 @@
     </main>
     <!-- footer -->
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп "Бородинский"<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>

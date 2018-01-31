@@ -557,7 +557,6 @@ form .btn,
 .items .btn{
   font-size: 14px;
   line-height: 18px;
-  margin-right: 7px;
 }
 .pagination{
   margin-top: 32px;
@@ -570,6 +569,94 @@ form .btn,
   background: #ffffff;
   cursor: default;
 }
+/*Css Item.html*/
+.image{
+  float: left;
+  max-width: 460px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 90px;
+  font-size: 0px;
+}
+.image-big{
+  padding: 0px;
+  margin: 0px;
+  width: 460px;
+  height: 498px;
+}
+.image-small img{
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 20px;
+}
+.image-small img:nth-child(3n){
+  margin-right: 0px;
+}
+.description{
+  float: right;
+  max-width: 390px;
+  padding-top: 15px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.part-number{
+  float: right;
+  font-size: 14px;
+  line-height: 24px;
+  color: #aeaeae;
+}
+.description p{
+  margin-top: 28px;
+  margin-bottom: 41px;
+}
+.description .item-buy{
+  margin-left: 0px;
+  margin-right: 203px;
+}
+.description .item-price{
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 0px;
+}
+.description .btn{
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 16px;
+}
+.item-composition{
+  float: left;
+  padding: 0px;
+  margin-top: 54px;
+}
+.item-composition h2{
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+.item-composition .item-composition-list{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.item-composition-list li{
+padding-left: 20px;
+position: relative;
+}
+.item-composition-list li::before{
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 8px;
+  left: 0;
+  background-color: #000000;
+  transform: rotate(45deg);
+
+
+}
+/*Footer*/
 .main-footer{
   margin-top: 65px;
   padding-top: 60px;
