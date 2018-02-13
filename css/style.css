@@ -747,6 +747,7 @@ text-align: center;
   background-color: #ffffff;
 }
 .modal-content{
+  display: none;
   position: absolute;
   top: 120px;
   left: 50%;
@@ -756,6 +757,9 @@ text-align: center;
   color: #000000;
   background: #f8f5f2 url("../img/pattern-white.jpg") repeat;
   box-shadow: 0 30px 50px rgba(0,0,0,0.7);
+}
+.modal-content-show{
+  display: block;
 }
 .modal-content-close{
   position: absolute;
@@ -861,7 +865,7 @@ border-radius: 1px;
   top: 8px;
   left: 1px;
   width: 15px;
-  height: 2PX;
+  height: 2px;
   background-color: #000000;
 }
 .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before{
@@ -871,6 +875,7 @@ border-radius: 1px;
   transform: rotate(-45deg);
 }
 .modal-content-map{
+  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -884,6 +889,7 @@ border-radius: 1px;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 .modal-overlay{
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
