@@ -91,7 +91,7 @@
           пн - пт: с 10:00 до 22:00<br>
           сб - вс: с 10:00 до 19:00
         </p>
-        <a class="btn index-btn" href="#">Как проехать</a>
+        <a class="btn index-btn js-open-map" href="#">Как проехать</a>
         <a class="btn index-btn" href="#">Обратная связь</a>
       </div>
       <div class="index-content-right">
@@ -145,50 +145,9 @@
   </div>
   <div class="modal-content-map">
     <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
-    <div id="yandex-map"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.599104365163!2d30.320894616160455!3d59.938794181876176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1518644221784" width="766" height="561" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
   <div class="modal-overlay"></div>
-  <script>
-    var link = document.querySelector(".login");
-    var popup = document.querySelector(".modal-content");
-    var form= popup.querySelector("form");
-    var close = document.querySelector(".modal-content-close");
-    var login = popup.querySelector("[name=login]");
-    var password = popup.querySelector("[name=password]");
-    var storage = localStorage.getItem("login");
-
-    link.addEventListener("click", function(event) {
-      event.preventDefault();
-      popup.classList.add("modal-content-show");
-      if (storage) {
-        login.value = storage;
-        password.focus();
-      } else{
-          login.focus();
-       }
-    });
-
-    close.addEventListener("click", function(event) {
-      event.preventDefault();
-      popup.classList.remove("modal-content-show");
-    });
-
-    form.addEventListener("submit", function(event) {
-      if (!login.value || !password.value){
-      event.preventDefault();
-      console.log("Нужно ввести логин и пароль");
-      } else {
-        localStorage.setItem("login", login.value);
-      }
-    })
-
-    window.addEventListener("keydown", function(event) {
-      if (event.keyCode === 27) {
-        if (popup.classList.contains("modal-content-show")) {
-          popup.classList.remove("modal-content-show");
-        }
-      }
-    })
-  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>
